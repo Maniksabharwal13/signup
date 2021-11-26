@@ -7,6 +7,7 @@ let x=0;
 reset.addEventListener('click',(e)=> {
   Username.value =null;
   Password.value =null;
+  error.innerText =null;
   x=1;
 })
 form.addEventListener('submit',(e)=> {
